@@ -478,16 +478,16 @@ jQuery(function ($) {
 
   // imgae infinite slider
   const scrollers = document.querySelectorAll(".scroller-x");
-  scrollers.forEach(scroller => {
-    scroller.setAttribute("data-animated", true);
-    const scrollerInner = scroller.querySelector(".scroller-x__list");
-    const scrollerContent = Array.from(scrollerInner.children);
-    scrollerContent.forEach(item => {
-      const duplicatedItem = item.cloneNode(true);
-      duplicatedItem.setAttribute("aria-hidden", true);
-      scrollerInner.appendChild(duplicatedItem);
-    });
-  });
+  // scrollers.forEach(scroller => {
+  //   scroller.setAttribute("data-animated", true);
+  //   const scrollerInner = scroller.querySelector(".scroller-x__list");
+  //   const scrollerContent = Array.from(scrollerInner.children);
+  //   scrollerContent.forEach(item => {
+  //     const duplicatedItem = item.cloneNode(true);
+  //     duplicatedItem.setAttribute("aria-hidden", true);
+  //     scrollerInner.appendChild(duplicatedItem);
+  //   });
+  // });
 
   //digital marketing testimonial
   var swiper = new Swiper('.ev-testimonial-slider', {
