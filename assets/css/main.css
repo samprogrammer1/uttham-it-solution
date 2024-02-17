@@ -10575,7 +10575,7 @@ progress {
 }
 
 .lead {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     font-weight: 400
 }
 
@@ -10628,7 +10628,7 @@ progress {
 }
 
 .display-5 {
-    font-size: calc(1.425rem + 2.1vw);
+    font-size: calc(1.125rem + 1.8vw);
     font-weight: 600;
     line-height: 1.2
 }
@@ -29063,7 +29063,7 @@ h4 {
 
 @media(min-width: 320px)and (max-width: 767px) {
     .lead {
-        font-size: 1.125rem
+        font-size: 1rem
     }
 
     .blockquote {
