@@ -29490,6 +29490,10 @@ h4 {
     color: #175cff
 }
 
+.main-menu li a.active {
+    color: #175cff !important;
+}
+
 .dropdown-grid-item a {
     display: -webkit-box;
     display: -ms-flexbox;
