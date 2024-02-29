@@ -29295,11 +29295,15 @@ h4 {
     opacity: .15
 }
 
+
+
 .sticky-header {
-    padding: 20px 0;
+    padding: 0px 0;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
+
+
 
 .affix {
     top: 0;
@@ -29644,7 +29648,7 @@ h4 {
 
 @media(min-width: 320px)and (max-width: 767px) {
     .sticky-header.affix {
-        padding: 15px 0 !important
+        padding: 0px 0 !important
     }
 }
 
@@ -29853,14 +29857,14 @@ h4 {
 }
 
 .preloader-icon {
-    width: 60px;
+    width: 160px;
     height: 60px
 }
 
 .loading-bar {
-    width: 120px;
+    width: 165px;
     height: 3px;
-    margin-top: 30px;
+    margin-top: 5px;
     position: relative;
     overflow: hidden;
     background: #fff
@@ -29879,13 +29883,13 @@ h4 {
 
 @-webkit-keyframes bluebar {
     50% {
-        left: 96px
+        left: 141px
     }
 }
 
 @keyframes bluebar {
     50% {
-        left: 96px
+        left: 141px
     }
 }
 
