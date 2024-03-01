@@ -14894,6 +14894,10 @@ fieldset:disabled .btn {
     white-space: nowrap
 }
 
+.navbar-brand img {
+    width: 220px;
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
     color: var(--bs-navbar-brand-hover-color)
@@ -17020,6 +17024,10 @@ fieldset:disabled .btn {
 
     .modal-fullscreen-sm-down .modal-body {
         overflow-y: auto
+    }
+
+    .navbar-brand img {
+        width: 160px;
     }
 }
 
@@ -29298,6 +29306,7 @@ h4 {
 
 
 .sticky-header {
+    background-color: transparent;
     padding: 0px 0;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
@@ -30254,6 +30263,33 @@ a:hover,
     -ms-flex-align: center;
     align-items: center
 }
+
+.circle-shape-images img {
+    animation: vertical-shaking 3.5s infinite;
+}
+
+@keyframes vertical-shaking {
+    0% {
+        transform: translateY(0)
+    }
+
+    25% {
+        transform: translateY(10px)
+    }
+
+    50% {
+        transform: translateY(-10px)
+    }
+
+    75% {
+        transform: translateY(2px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
 
 .circle-shape-item {
     position: absolute;
@@ -34530,6 +34566,8 @@ select.form-select {
 .process-card {
     position: relative;
     display: block;
+    -webkit-box-shadow: 0 5px 20px 0 rgba(210, 210, 245, .5);
+    box-shadow: 0 5px 20px 0 rgba(210, 210, 245, .5);
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
