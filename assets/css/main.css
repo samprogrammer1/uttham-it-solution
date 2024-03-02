@@ -34786,6 +34786,12 @@ li.setup-process-item:not(:last-child):before {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, .1)
 }
 
+.single-service {
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, .1);
+    box-shadow: 0px  5px 15px 0px rgba(0, 0, 0, .1);
+    border-radius: 1rem;
+}
+
 .single-service:hover {
     -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, .1);
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, .1)
