@@ -8,7 +8,8 @@
 }
 
 :root {
-    --swiper-theme-color: #007aff
+    --swiper-theme-color: #007aff;
+    --gradiant-color : linear-gradient(315.01deg, rgb(255, 113, 13) 8.31%, rgb(255, 184, 0) 88.22%);
 }
 
 .swiper {
@@ -20629,7 +20630,7 @@ fieldset:disabled .btn {
 
 .text-primary {
     --bs-text-opacity: 1;
-    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important
+    color: rgb(255, 113, 13) !important
 }
 
 .text-accent {
@@ -29500,11 +29501,11 @@ h4 {
 .action-btns a.btn-link:hover,
 .navbar-dark.sticky-header.affix .main-menu li a.nav-link:hover,
 .navbar-dark.sticky-header.affix .action-btns a.btn-link:hover {
-    color: #175cff
+    color: rgb(255, 113, 13)
 }
 
 .main-menu li a.active {
-    color: #175cff !important;
+    color: rgb(255, 113, 13) !important;
 }
 
 .dropdown-grid-item a {
@@ -31799,7 +31800,20 @@ a:hover,
     padding: 5px 0
 }
 
+.ceo-cto {
+    background: var(--gradiant-color) !important;
+}
+.ceo-cto h3 {
+    color: white !important;
+    text-align: center;
+}
+
+.ceo-cto p {
+    color: white !important;
+}
+
 .single-pricing-wrap {
+    
     -webkit-transition: -webkit-transform 300ms ease;
     transition: -webkit-transform 300ms ease;
     transition: transform 300ms ease;
@@ -34606,9 +34620,9 @@ select.form-select {
     margin: 0 auto 35px
 }
 
-.process-card-two:hover .process-icon {
-    background-color: #fff;
-    color: #175cff
+
+.process-card-two:hover .process-icon span {
+    color: rgb(255, 113, 13) !important;
 }
 
 .process-card:hover {
@@ -34616,7 +34630,7 @@ select.form-select {
 }
 
 .process-card:hover .process-icon {
-    background: #175cff !important
+    background: var(--gradiant-color) !important
 }
 
 .process-card:hover .process-icon span,
@@ -34635,7 +34649,7 @@ select.form-select {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    border-bottom: 2px dashed #175cff
+    border-bottom: 2px dashed rgb(255, 113, 13)
 }
 
 .dots-line.first {
@@ -34978,7 +34992,7 @@ li.setup-process-item:not(:last-child):before {
 }
 
 .pricing-header {
-    padding-bottom: 32px;
+    padding-bottom: 3px;
     border-bottom: 1px dashed var(--bs-secondary)
 }
 
