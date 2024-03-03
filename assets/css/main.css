@@ -13002,7 +13002,7 @@ fieldset:disabled .btn {
 
 .btn-primary {
     --bs-btn-color: #ffffff;
-    --bs-btn-bg: #175cff;
+    --bs-btn-bg: rgb(255, 113, 13);
     --bs-btn-border-color: #175cff;
     --bs-btn-hover-color: #ffffff;
     --bs-btn-hover-bg: #144ed9;
@@ -28962,7 +28962,7 @@ h4 {
     height: 36px;
     line-height: 32px;
     text-align: center;
-    border: 2px solid rgba(255, 255, 255, .12);
+    border: 2px solid transparent;
     color: #65676d;
     border-radius: 4px;
     -webkit-transition: all .3s ease-in-out;
@@ -28979,9 +28979,8 @@ h4 {
 }
 
 .footer-social-list li a:hover {
-    background: rgb(255, 113, 13);
     color: #fff;
-    border-color: #175cff
+    border-color: rgba(255, 255, 255, .12)
 }
 
 #preloader {
@@ -31422,6 +31421,29 @@ a:hover,
     }
 }
 
+
+.open-jobs .career-card  {
+    background-color: rgb(255, 113, 13) !important;
+}
+
+.open-jobs .career-card:hover {
+    background-color: rgb(255, 113, 13) !important;
+    box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.58);
+    border-radius: 0px;
+
+    background-image:
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%23da5e06' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23da5e06' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%23fcc900' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23fcc900' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%23da5e06' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23da5e06' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e");
+    background-repeat: repeat-x;
+    background-size: 1600px 50%;
+    background-position: 0 130%, -50px 130%, 500px 130%;
+
+    animation: 20s waves linear infinite forwards;
+} 
+
+
+
 .job-time {
     font-size: 14px
 }
@@ -32778,8 +32800,9 @@ select.form-select {
 .btn-primary:focus,
 .btn-primary.active,
 .btn-primary.show {
-    border-color: #0044e3;
-    background-color: #0044e3
+    border-color: rgb(255, 113, 13) !important;
+    background-color: rgb(255, 113, 13) !important;
+    opacity: 0.9;
 }
 
 .btn-accent:hover,
