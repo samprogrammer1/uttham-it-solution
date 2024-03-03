@@ -9176,7 +9176,7 @@ i[class*=" flaticon-"]:before {
     --bs-gray-700: #404040;
     --bs-gray-800: #262626;
     --bs-gray-900: #171717;
-    --bs-primary: #175cff;
+    --bs-primary: rgb(255, 113, 13);
     --bs-accent: #168323;
     --bs-secondary: #e5e5e5;
     --bs-success: #74B51B;
@@ -20021,6 +20021,7 @@ fieldset:disabled .btn {
 .bg-gradient {
     background: var(--gradiant-color) !important
 }
+
 .footer-bg-gradient {
     background: var(--gradiant-color) !important
 }
@@ -28978,7 +28979,7 @@ h4 {
 }
 
 .footer-social-list li a:hover {
-    background: #175cff;
+    background: rgb(255, 113, 13);
     color: #fff;
     border-color: #175cff
 }
